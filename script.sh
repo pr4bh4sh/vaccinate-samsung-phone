@@ -5,5 +5,7 @@ adb -d shell pm uninstall -k --user 0 com.samsung.android.app.watchmanager
 adb -d shell pm uninstall -k --user 0 com.facebook.services
 adb -d shell pm uninstall -k --user 0 com.samsung.android.voc
 adb -d shell pm uninstall -k --user 0 com.facebook.appmanager
+adb -d shell pm uninstall -k --user 0 com.facebook.katana
 adb -d shell pm uninstall -k --user 0 com.sec.android.app.samsungapps
+adb -d shell pm uninstall -k --user 0 com.spotify.music
 adb -d shell pm uninstall -k --user 0 com.sec.android.easyMover
