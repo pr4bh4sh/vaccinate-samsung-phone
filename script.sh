@@ -1,4 +1,4 @@
-echo 'cleaning samsung\'s shit pile'
+echo "cleaning samsung's shit pile"
 adb -d shell pm uninstall -k --user 0 com.samsung.android.oneconnect
 adb -d shell pm uninstall -k --user 0 com.sec.android.app.sbrowser
 adb -d shell pm uninstall -k --user 0 com.sec.android.app.shealth
