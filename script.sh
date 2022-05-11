@@ -9,6 +9,7 @@ adb -d shell pm uninstall -k --user 0 com.sec.android.easyMover || echo "uninsta
 adb -d shell pm uninstall -k --user 0 com.samsung.sree || echo "uninstalling samsung sree failed"
 adb -d shell pm uninstall -k --user 0 com.samsung.android.game.gamehome || echo "uninstalling samsung gamehome failed"
 adb -d shell pm uninstall -k --user 0 com.samsung.android.spay || echo "uninstalling samsung pay failed"
+adb -d shell pm uninstall -k --user 0 com.sec.android.app.samsungapps || echo "uninstalling samsung app store failed"
 
 echo 'cleaning bloatwares'
 adb -d shell pm uninstall -k --user 0 com.spotify.music || echo "uninstalling samsung spotify failed"
